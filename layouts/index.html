@@ -50,7 +50,7 @@
           <div class="col s2">
           </div>
           <div class="col s5">
-            <a id='rejestracja' class="white-text" href='#'>Rejestracja</a>
+            <a id='rejestracja' class="white-text modal-trigger" href='#modal-rejestracja'>Rejestracja</a>
           </div>
         </div>
       </div>
@@ -72,25 +72,62 @@
           <form class="col s12 m8 offset-m2 l6 offset-l3">
             <div class="row">
               <div class="input-field col s12">
-                <input id="userLogin" type="text" class="validate">
-                <label for="userLogin">Login</label>
+                <i class="material-icons prefix">account_circle</i>
+                <input id="Logowanie-login" type="text" class="validate">
+                <label for="Logowanie-login">Login</label>
               </div>
               <div class="input-field col s12">
-                <input id="userPassword" type="password" class="validate">
-                <label for="userPassword">Password</label>
+                <i class="material-icons prefix">lock_outline</i>
+                <input id="Logowanie-password" type="password" class="validate">
+                <label for="Logowanie-password">Password</label>
               </div>
             </div>
             <div class="row center-align">
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <button class="btn waves-effect waves-light" type="submit" name="action">Zaloguj
               <i class="material-icons right">send</i>
             </button>
           </div>
           </form>
-        </div
-        <!--END Formularz logowania-->
+        </div>
+        <!-- END Formularz logowania-->
       </div>
     </div>
     <!--END Modal Logowanie-->
+    <!--Modal Rejestracja-->
+    <div id="modal-rejestracja" class="modal">
+      <div class="modal-content">
+        <h4 class="center-align">Zarejestruj</h4>
+        <!--Formularz logowania-->
+        <div class="row">
+          <form class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="Rejestracja-login" type="text" class="validate">
+                <label for="Rejestracja-login">Login</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">lock_outline</i>
+                <input id="Rejestracja-password" type="password" class="validate">
+                <label for="Rejestracja-password">Password</label>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">lock_outline</i>
+                <input id="Rejestracja-password-ponownie" type="password" class="validate">
+                <label for="Rejestracja-password-ponownie">Password</label>
+              </div>
+            </div>
+            <div class="row center-align">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Zarejestruj
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+          </form>
+        </div>
+        <!-- END Formularz logowania-->
+      </div>
+    </div>
+    <!--END Modal Rejestracja-->
     <!--Skrypty-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="/assets/materialize.min.js"></script>

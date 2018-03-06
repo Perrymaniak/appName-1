@@ -13,24 +13,56 @@
   <body>
     <!--Nawigacja-->
     <nav>
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <div class="nav-wrapper teal accent-4 fixed">
+        <a href="#!" class="brand-logo left">logo + link do glownej</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+        <!--Wersja desktopowa-->
         <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">Javascript</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
+          <li><a href="#">{{Kategoria1}}</a></li>
+          <li><a href="#">{{Kategoria2}}</a></li>
+          <li><a href="#">{{Kategoria3}}</a></li>
+          <li><a href="#">{{Kategoria4}}</a></li>
         </ul>
+        <!--END Wersja desktopowa-->
+        <!--Wersja mobilna-->
         <ul class="side-nav" id="mobile-demo">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">Javascript</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
+          <li><a href="#">{{Kategoria1}}</a></li>
+          <li><a href="#">{{Kategoria2}}</a></li>
+          <li><a href="#">{{Kategoria3}}</a></li>
+          <li><a href="#">{{Kategoria4}}</a></li>
         </ul>
+        <!--END Wersja mobilna-->
       </div>
     </nav>
     <!--END Nawigacja-->
+    <!--Content-->
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!--END Content-->
+    <!--Footer-->
+    <footer class="page-footer teal accent-4">
+      <div class="container">
+        <div class="row center-align">
+          <div class="col s5">
+            <a id='logowanie' class="white-text" href='#'>Logowanie</a>
+          </div>
+          <div class="col s2">
+          </div>
+          <div class="col s5">
+            <a id='rejestracja' class="white-text" href='#'>Rejestracja</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <p class="center-align">
+            © 2018 Copyright Text
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--END Footer-->
     <!--Skrypty-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../assets/materialize.min.js"></script>

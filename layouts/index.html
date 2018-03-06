@@ -4,199 +4,63 @@
     <meta charset="utf-8">
     <title>AppName</title>
     <!--Style-->
-    <link type="text/css" rel="stylesheet" href="/css/reset.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="/assets/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="/assets/slick.css"/>
-    <link type="text/css" rel="stylesheet" href="/assets/slick-theme.css"/>
     <link type="text/css" rel="stylesheet" href="/css/main.css"  media="screen,projection"/>
     <!--END Style-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
     <!--Nawigacja-->
-      <nav>
-        <div class="nav-wrapper teal accent-4">
-          <a href="#!" class="brand-logo left">logo + link do glownej</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
-          <!--Wersja desktopowa-->
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#">{{Kategoria1}}</a></li>
-            <li><a href="#">{{Kategoria2}}</a></li>
-            <li><a href="#">{{Kategoria3}}</a></li>
-            <li><a href="#">{{Kategoria4}}</a></li>
-          </ul>
-          <!--END Wersja desktopowa-->
-          <!--Wersja mobilna-->
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="#">{{Kategoria1}}</a></li>
-            <li><a href="#">{{Kategoria2}}</a></li>
-            <li><a href="#">{{Kategoria3}}</a></li>
-            <li><a href="#">{{Kategoria4}}</a></li>
-          </ul>
-          <!--END Wersja mobilna-->
-        </div>
-      </nav>
+    <nav>
+      <div class="nav-wrapper teal accent-4 fixed">
+        <a href="#!" class="brand-logo left">logo + link do glownej</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+        <!--Wersja desktopowa-->
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">{{Kategoria1}}</a></li>
+          <li><a href="#">{{Kategoria2}}</a></li>
+          <li><a href="#">{{Kategoria3}}</a></li>
+          <li><a href="#">{{Kategoria4}}</a></li>
+        </ul>
+        <!--END Wersja desktopowa-->
+        <!--Wersja mobilna-->
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#">{{Kategoria1}}</a></li>
+          <li><a href="#">{{Kategoria2}}</a></li>
+          <li><a href="#">{{Kategoria3}}</a></li>
+          <li><a href="#">{{Kategoria4}}</a></li>
+        </ul>
+        <!--END Wersja mobilna-->
+      </div>
+    </nav>
     <!--END Nawigacja-->
     <!--Content-->
-        <div class="kategoria">
-          <div class="chip grey darken-3 white-text">
-            <img src="https://static1.squarespace.com/static/53ee2f53e4b08ae50e0b57a4/t/59de2efad55b41bc94ae89fe/1507733331917/04.26.16%2Bimg-03.jpg" alt="Contact Person">
-            Kategoria 1
-          </div>
-          <div class="articles">
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-          </div>
-        </div>
-        <div class="kategoria">
-          <div class="chip grey darken-3 white-text">
-            <img src="https://static1.squarespace.com/static/53ee2f53e4b08ae50e0b57a4/t/59de2efad55b41bc94ae89fe/1507733331917/04.26.16%2Bimg-03.jpg" alt="Contact Person">
-            Kategoria 1
-          </div>
-          <div class="articles">
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-          </div>
-        </div>
-        <div class="kategoria">
-          <div class="chip grey darken-3 white-text">
-            <img src="https://static1.squarespace.com/static/53ee2f53e4b08ae50e0b57a4/t/59de2efad55b41bc94ae89fe/1507733331917/04.26.16%2Bimg-03.jpg" alt="Contact Person">
-            Kategoria 1
-          </div>
-          <div class="articles">
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-          </div>
-        </div>
-        <div class="kategoria">
-          <div class="chip grey darken-3 white-text">
-            <img src="https://static1.squarespace.com/static/53ee2f53e4b08ae50e0b57a4/t/59de2efad55b41bc94ae89fe/1507733331917/04.26.16%2Bimg-03.jpg" alt="Contact Person">
-            Kategoria 1
-          </div>
-          <div class="articles">
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-            <article>
-              <img src="https://s7d2.scene7.com/is/image/SamsungUS/US_Sim_CAM_DC_DUAL_Gear-360_Stitching-Photos-Videos-ActionDirector-00?$default-high-resolution-jpg$">
-              <div class="articleTitle truncate">Lorem ipsum dolor asdasds asd asdasdasdasdsa adasd asdasdamet</div>
-            </article>
-          </div>
-        </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <!--END Content-->
     <!--Footer-->
     <footer class="page-footer teal accent-4">
+      <div class="container">
         <div class="row center-align">
           <div class="col s5">
             <a id='logowanie' class="white-text modal-trigger" href='#modal-logowanie'>Logowanie</a>
           </div>
           <div class="col s2">
-            <i class="small material-icons">account_box</i>
           </div>
           <div class="col s5">
             <a id='rejestracja' class="white-text modal-trigger" href='#modal-rejestracja'>Rejestracja</a>
           </div>
         </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <p class="center-align">
+            © 2018 Copyright Text
+          </p>
+        </div>
+      </div>
     </footer>
     <!--END Footer-->
     <!--Modal Logowanie-->
@@ -267,7 +131,6 @@
     <!--Skrypty-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="/assets/materialize.min.js"></script>
-    <script type="text/javascript" src="/assets/slick.min.js"></script>
     <script type="text/javascript" src="/js/main.js"></script>
     <!--END Skrypty-->
   </body>

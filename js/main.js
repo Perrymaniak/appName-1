@@ -1,5 +1,5 @@
 $( document ).ready(function(){
-  $(".button-collapse").sideNav({
-    edge: 'right',
-  });
+  $('.modal').modal()
+  $(".button-collapse").sideNav({edge: 'right'})
+
 });

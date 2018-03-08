@@ -12,33 +12,35 @@
   </head>
   <body>
     <!--Nawigacja-->
-    <nav>
-      <div class="nav-wrapper teal accent-4 fixed">
-        <a href="#!" class="brand-logo left">logo + link do glownej</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
-        <!--Wersja desktopowa-->
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#">{{Kategoria1}}</a></li>
-          <li><a href="#">{{Kategoria2}}</a></li>
-          <li><a href="#">{{Kategoria3}}</a></li>
-          <li><a href="#">{{Kategoria4}}</a></li>
-          <li><a id='logowanie' class="white-text modal-trigger" href='#modal-logowanie'>Logowanie</a></li>
-          <li><a id='rejestracja' class="white-text modal-trigger" href='#modal-rejestracja'>Rejestracja</a></li>
-        </ul>
-        <!--END Wersja desktopowa-->
-        <!--Wersja mobilna-->
-        <ul class="side-nav" id="mobile-demo">
-          <li><a href="#">{{Kategoria1}}</a></li>
-          <li><a href="#">{{Kategoria2}}</a></li>
-          <li><a href="#">{{Kategoria3}}</a></li>
-          <li><a href="#">{{Kategoria4}}</a></li>
-          <div class="divider"></div>
-          <li><a id='logowanie' class="modal-trigger" href='#modal-logowanie'>Logowanie</a></li>
-          <li><a id='rejestracja' class="modal-trigger" href='#modal-rejestracja'>Rejestracja</a></li>
-        </ul>
-        <!--END Wersja mobilna-->
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo left">logo + link do glownej</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+          <!--Wersja desktopowa-->
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">{{Kategoria1}}</a></li>
+            <li><a href="#">{{Kategoria2}}</a></li>
+            <li><a href="#">{{Kategoria3}}</a></li>
+            <li><a href="#">{{Kategoria4}}</a></li>
+            <li><a id='logowanie' class="white-text modal-trigger" href='#modal-logowanie'>Logowanie</a></li>
+            <li><a id='rejestracja' class="white-text modal-trigger" href='#modal-rejestracja'>Rejestracja</a></li>
+          </ul>
+        </nav>
       </div>
-    </nav>
+    </div>
+    <!--END Wersja desktopowa-->
+    <!--Wersja mobilna-->
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="#">{{Kategoria1}}</a></li>
+      <li><a href="#">{{Kategoria2}}</a></li>
+      <li><a href="#">{{Kategoria3}}</a></li>
+      <li><a href="#">{{Kategoria4}}</a></li>
+      <div class="divider"></div>
+      <li><a id='logowanie' class="modal-trigger" href='#modal-logowanie'>Logowanie</a></li>
+      <li><a id='rejestracja' class="modal-trigger" href='#modal-rejestracja'>Rejestracja</a></li>
+    </ul>
+    <!--END Wersja mobilna-->
     <!--END Nawigacja-->
     <!--Content-->
     <div class="container artykuly">

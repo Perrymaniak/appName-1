@@ -45,7 +45,25 @@
     <!--Content-->
     <div class="container artykuly">
       <div class="row">
+<!--Ogólnie to będzie tak:
+1.  W linijce nr 2 artykułu tam gdzie jest href='#' zamieniamy # na adres lokalny artykułu. Czyli np posts/art123.html Tu już masz pole do popisu.
+2.  Do wszystkich divów o klasie "kategoria" należy dodać 1 klasę do wyboru z kategorii. Narazie zrobiłem:
+  -sport
+  -rozrywka
+  -technologie
+  -ludzie
+  Potrenuj tworzenie artykułu z różnymi kategoriami. Tekst tam będzie się generował automatycznie. Wystarczy nadać temu divowi klasę dodatkową zgodnie z zapisaną kategorią w bazie.
+3. div z klasą card-title  zasysamy tutaj tytuł
+4. p z klasą flow-text tam zasysamy część artykułu. Dlaczego część? podczas pisania artykułu zrobię 2 pola tekstowe na wstęp (headline) i główną część artykułu. Pierwszą część zassiemy do tej karty, druga będzie widoczna po otworzeniu linku. Wiem że to wygląda idiotycznie ale zaufaj mi.
 
+a.)tytuł
+b.)Tekst pod tytułem (ten co trafi w skrócie na stronę główną.)
+c.)Tekst zwykły
+
+P.S.
+Nie ma co się bać dawać całego tekstu podtytułem i bawić się w jego wycinanie czy coś. Ja to już zrobiłem. Jak zmniejszysz sobie okno, to zobaczysz, że automatycznie zjada tekst, który się nie mieści. Zrobiłem ograniczenie na 3 linijki.
+-->
+<!--Artykuł do wygenerowania-->
         <div class="col s12 m6 l4">
           <a href='#'>
             <div class="card">
@@ -62,6 +80,7 @@
             </div>
           </a>
         </div>
+<!--Artykuł do wygenerowania-->
         <div class="col s12 m6 l4">
           <a href='#'>
             <div class="card">
@@ -78,6 +97,7 @@
             </div>
           </a>
         </div>
+<!--Artykuł do wygenerowania-->
         <div class="col s12 m6 l4">
           <a href='#'>
             <div class="card">
@@ -94,6 +114,7 @@
             </div>
           </a>
         </div>
+<!--Artykuł do wygenerowania-->
         <div class="col s12 m6 l4">
           <a href='#'>
             <div class="card">
@@ -110,6 +131,7 @@
             </div>
           </a>
         </div>
+<!--Artykuł do wygenerowania-->
         <div class="col s12 m6 l4">
           <a href='#'>
             <div class="card">
@@ -126,6 +148,7 @@
             </div>
           </a>
         </div>
+<!--Artykuł do wygenerowania-->
         <div class="col s12 m6 l4">
           <a href='#'>
             <div class="card">
@@ -142,6 +165,7 @@
             </div>
           </a>
         </div>
+<!--Artykuł do wygenerowania-->
         <div class="col s12 m6 l4">
           <a href='#'>
             <div class="card">
@@ -158,6 +182,7 @@
             </div>
           </a>
         </div>
+<!--Artykuł do wygenerowania-->
         <div class="col s12 m6 l4">
           <a href='#'>
             <div class="card">
@@ -212,7 +237,7 @@
     <div id="modal-rejestracja" class="modal">
       <div class="modal-content">
         <h4 class="center-align">Zarejestruj</h4>
-        <!--Formularz logowania-->
+        <!--Formularz rejestracji-->
         <div class="row">
           <form class="col s12 m8 offset-m2 l6 offset-l3">
             <div class="row">
@@ -239,7 +264,7 @@
           </div>
           </form>
         </div>
-        <!-- END Formularz logowania-->
+        <!-- END Formularz rejestracji-->
       </div>
     </div>
     <!--END Modal Rejestracja-->

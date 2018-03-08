@@ -8,7 +8,7 @@ $("#Rejestracja-password").on("focusout", function (e) {
         $("#Rejestracja-password-ponownie").removeClass("valid").addClass("invalid");
     } else {
         $("#Rejestracja-password-ponownie").removeClass("invalid").addClass("valid");
-        $("#rejestracja-button").removeClass("disabled").addClass("valid");
+        $("#rejestracja-button").removeClass("disabled");
     }
 });
 

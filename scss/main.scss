@@ -8,6 +8,9 @@ background-attachment: fixed;
 background-size: cover;
 background-position: center;
 }
+nav{
+  box-shadow: none;
+}
 .nav-wrapper{
   background-color: $first-color;
   a{

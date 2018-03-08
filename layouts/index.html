@@ -15,11 +15,13 @@
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo left">logo + link do glownej</a>
+          <a href="#!" class="brand-logo left">
+            <img src="/img/hello-world.jpg" alt="logo">
+          </a>
           <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
           <!--Wersja desktopowa-->
           <ul class="right hide-on-med-and-down">
-            <li><a href="#">{{Kategoria1}}</a></li>
+            <li class="active"><a href="#">{{Kategoria1}}</a></li>
             <li><a href="#">{{Kategoria2}}</a></li>
             <li><a href="#">{{Kategoria3}}</a></li>
             <li><a href="#">{{Kategoria4}}</a></li>
@@ -32,6 +34,7 @@
     <!--END Wersja desktopowa-->
     <!--Wersja mobilna-->
     <ul class="side-nav" id="mobile-demo">
+      <li><a class="brand-logo" href="#"><img src="/img/hello-world-small.jpg" alt="logo"></a></li>
       <li><a href="#">{{Kategoria1}}</a></li>
       <li><a href="#">{{Kategoria2}}</a></li>
       <li><a href="#">{{Kategoria3}}</a></li>
@@ -223,7 +226,7 @@ Nie ma co się bać dawać całego tekstu podtytułem i bawić się w jego wycin
               </div>
             </div>
             <div class="row center-align">
-            <button class="btn waves-effect waves-light black" type="submit" name="action">Zaloguj
+            <button class="btn waves-effect waves-light" type="submit" name="action">Zaloguj
               <i class="material-icons right">send</i>
             </button>
           </div>
@@ -258,7 +261,7 @@ Nie ma co się bać dawać całego tekstu podtytułem i bawić się w jego wycin
               </div>
             </div>
             <div class="row center-align">
-            <button class="btn waves-effect waves-light black" type="submit" name="action">Zarejestruj
+            <button class="btn waves-effect waves-light" type="submit" name="action">Zarejestruj
               <i class="material-icons right">send</i>
             </button>
           </div>

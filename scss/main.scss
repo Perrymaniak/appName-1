@@ -8,21 +8,46 @@ body{
 .nav-wrapper{
   background-color: #00d664
 }
-.page-footer{
-  position: fixed;
-  left:0;
-  right: 0;
-  bottom: 0;
-  .row{
-    padding: 0;
-  }
-  .footer-copyright{
-    padding: 0;
-  }
-}
 .card-image{
   width: 100%;
   height: auto;
+  position: relative;
+  .kategoria{
+    padding: 3px 8px;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+  }
+  .sport{
+    background-color:cornflowerblue;
+    color:#fff;
+    &:before{
+      content: "Sport";
+    }
+  }
+  .rozrywka{
+    background-color: fuchsia;
+    color:#fff;
+    &:before{
+      content: "Rozrywka";
+    }
+  }
+  .technologie{
+    background-color: aqua;
+    color:#000;
+    &:before{
+      content: "Technologie";
+    }
+  }
+  .ludzie{
+    background-color: navy;
+    color:#fff;
+    &:before{
+      content: "Ludzie";
+    }
+  }
 }
 .card-content{
   color:#333;

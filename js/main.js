@@ -8,6 +8,7 @@ $("#Rejestracja-password").on("focusout", function (e) {
         $("#Rejestracja-password-ponownie").removeClass("valid").addClass("invalid");
     } else {
         $("#Rejestracja-password-ponownie").removeClass("invalid").addClass("valid");
+        $("#rejestracja-button").removeClass("disabled").addClass("valid");
     }
 });
 
@@ -16,5 +17,6 @@ $("#Rejestracja-password-ponownie").on("keyup", function (e) {
         $(this).removeClass("valid").addClass("invalid");
     } else {
         $(this).removeClass("invalid").addClass("valid");
+        $("#rejestracja-button").removeClass("disabled");
     }
 });

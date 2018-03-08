@@ -217,12 +217,12 @@ Nie ma co się bać dawać całego tekstu podtytułem i bawić się w jego wycin
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
-                <input id="Logowanie-login" type="text" class="validate">
+                <input id="Logowanie-login" type="text" class="validate" required>
                 <label for="Logowanie-login">Login</label>
               </div>
               <div class="input-field col s12">
                 <i class="material-icons prefix">lock_outline</i>
-                <input id="Logowanie-password" type="password" class="validate">
+                <input id="Logowanie-password" type="password" class="validate" required>
                 <label for="Logowanie-password">Password</label>
               </div>
             </div>
@@ -247,22 +247,22 @@ Nie ma co się bać dawać całego tekstu podtytułem i bawić się w jego wycin
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
-                <input id="Rejestracja-login" type="text" class="validate">
+                <input id="Rejestracja-login" type="text" class="validate" required>
                 <label for="Rejestracja-login">Login</label>
               </div>
               <div class="input-field col s12">
                 <i class="material-icons prefix">lock_outline</i>
-                <input id="Rejestracja-password" type="password" class="validate">
+                <input id="Rejestracja-password" type="password" class="validate" required>
                 <label for="Rejestracja-password">Hasło</label>
               </div>
               <div class="input-field col s12">
                 <i class="material-icons prefix">lock_outline</i>
-                <input id="Rejestracja-password-ponownie" type="password" class="validate">
+                <input id="Rejestracja-password-ponownie" type="password" class="validate" required>
                 <label for="Rejestracja-password-ponownie" data-error="Hasła nie są takie same" data-success="Hasła identyczne">Powtórz hasło</label>
               </div>
             </div>
             <div class="row center-align">
-            <button class="btn waves-effect waves-light" type="submit" name="action">Zarejestruj
+            <button id='rejestracja-button' class="btn waves-effect waves-light disabled" type="submit" name="action">Zarejestruj
               <i class="material-icons right">send</i>
             </button>
           </div>

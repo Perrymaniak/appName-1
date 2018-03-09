@@ -1,6 +1,7 @@
 $( document ).ready(function(){
   $('.modal').modal()
   $(".button-collapse").sideNav({edge: 'right'})
+  $('select').material_select();
 });
 //Password Validation
 $("#Rejestracja-password").on("focusout", function (e) {

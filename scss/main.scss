@@ -102,5 +102,7 @@ nav{
 }
 .bold{
   font-weight: 700;
-
+}
+ul.dropdown-content.select-dropdown li span {
+    color: #000; /* no need for !important :) */
 }
